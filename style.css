@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* button colour shortcut */
+.button-colour{
+    padding: 5px;
+    color: white;
+    background-color: #38a4ec;
+
+}
+.container{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+}
+/* Flexing div shortcut */
+.flexing-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Header section starts from here */
+.header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    
+    
+}
+            /* Inserting Header image */
+.header::before{
+    content: '';
+    background-image: url(./images/donation13.jpg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: 10;
+    
+}
+.header-h1{
+    z-index: 100;
+    color: white;
+    font-size: 70px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 500;
+
+}
+.header-p{
+   z-index: 100;
+   color: white;
+   font-size: 20px;
+
+}
+.header-button{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    
+    z-index: 100;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Donate today starts from here */
+
+.donation-amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.donation-amount-h1{
+    font-size: 45px;
+    
+}
+.donation-amount-p{
+    color: #8B8B8B;
+    margin-bottom: 30px;
+}
+.donation-amount-card{
+    height: 110px;
+    width: 780px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.donation-amount-card-a{
+    height: 90px;
+    width: 100px;
+    background-color: #FAFAFA;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #747474;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+#donation-amount-card-a{
+    background-color: #FFEEEE;
+    color: #FF6C6C;
+    border: 1px solid #FF6C6C;
+}
+.donation-amount-input{
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    height: 40px;
+    width: 767px;
+    font-size: 16px;
+    padding: 0;
+    
+}
+.donation-amount-input:focus{
+    outline: none;
+}
+
+.donation-amount-button{
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 175px;
+    text-decoration: none;
+    background-color: tomato;
+    font-size: 20px;
+}
+
+/* donation plan section starts from here */
+.donation-plan{
+    margin-top: 120px;
+}
+.donation-plan-header{
+    font-size: 45px;
+    margin-bottom: 0%;
+}
+.donation-plan-p{
+    color: #8B8B8B;
+}
+.donation-plan-card{
+    height: 420px;
+    width: 90vw;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+
+}
+
+
+.donation-plan-card-design{
+    height: 250px;
+    width: 365px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px;
+   
+
+}
+.donation-plan-card-1{
+    background-color: #EDF5F6;
+}
+
+.donation-plan-card-2{
+    background-color: #FFEEEE;
+}
+.donation-plan-card-3{
+    background-color: #FFF4D6;
+}
+.article-1{
+    width: 1035px;
+    height: 495px;
+}
+
+
+/* Article section starts from here */
+.article{
+    width: 90vw;
+    height: 100%;
+   
+
+}
+.article p{
+    color: #8B8B8B;
+}
+.article-1, .article-2{
+    display: flex;
+    width: 90vw;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.article-1-sec1, .article-1-sec2, .article-2-sec1, .article-2-sec2{
+    height: 451px ;
+    width: 600px;
+    
+}
+.article-1-sec1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.h-w-c-button{
+    height: 40px;
+    width: 180px;
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article-2-sec2{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+/* Recent news section starts from hrer */
+.recent-news{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recent-news p{
+    color: #747474;
+    text-align: justify;
+}
+
+.recent-news-sec1, .recent-news-sec2, .recent-news-sec3, .recent-news-sec4{
+    height: 200px;
+    width: 300px;
+    background-color: #f5f0f0;
+
+    
+   
+    border-radius: 5px;
+
+}
+.recent-news-img-1{
+    height: 130px;
+    width: 150px;
+    float: left;
+    margin: 5px;
+}
+.conntinue-reading-button{
+    text-decoration: none;
+    color: white;
+    
+    background-color: #4fb2f3;
+    border-radius: 5px;
+    
+}
+
+
+
+/* Get my update section starts from here */
+.g-m-u{
+    text-align: center;
+    
+}
+.g-m-u-h2{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.g-m-u-p{
+    color: #8B8B8B;
+    margin-bottom: 30px;
+}
+.input-mail-sec{
+    height: 205px;
+    width: 820px;
+    background-color: #38a4ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #FFF4D6;
+}
+.form{
+    height: 59px;
+    width: 700px;
+ 
+}
+.email{
+    height: 57px;
+    width: 430px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+}
+.sub-button{
+    text-decoration: none;
+    height: 47px ;
+    width: 167px ;
+    color: white;
+    background-color: #FF6C6C;
+    display: inline-block;
+   
+
+}
+/* Footer section starts from here */
+
+.footer{
+    height: 175px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+.footer-h3{
+    font-family: 'Dancing Script', cursive;
+
+    color: #FF5959;
+    font-weight: 900;
+
+
+
+}
