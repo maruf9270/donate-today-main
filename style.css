@@ -334,6 +334,9 @@ body{
     padding: 0 10px;
     font-size: 15px;
 }
+.email:focus{
+    outline: none;
+}
 .sub-button{
     text-decoration: none;
     height: 59px ;
